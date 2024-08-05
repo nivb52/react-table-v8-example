@@ -7,7 +7,7 @@ import {
 import CsocList from './modules/CSOCList/CsocList'
 
 
-const $t = (key: string): string => key
+const $t = (key: string, def?: string): string => key || def || '';
 window.$t = $t
 
 // Create a client
