@@ -1,0 +1,14 @@
+<!-- In Desgin Sketch it called Graphana -->
+<!--currentColor -->
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#clip0_8585_22898)">
+        <rect x="3" y="4" width="2" height="17" rx="1" fill="#E7E9EC"/>
+        <rect x="20" y="19" width="2" height="17" rx="1" transform="rotate(90 20 19)" fill="#E7E9EC"/>
+        <path d="M7.5 16L12.5 11L15 14L20.5 8.5" stroke="#E7E9EC" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    <defs>
+    <clipPath id="clip0_8585_22898">
+    <rect width="24" height="24" fill="white"/>
+    </clipPath>
+    </defs>
+</svg>

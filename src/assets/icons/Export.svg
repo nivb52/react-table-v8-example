@@ -1,0 +1,15 @@
+<svg width="24" height="20" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 162">
+<path id="Rectangle 259" d="M1.5 1H19.5V9.58579L10.0858 19H1.5V1Z" stroke="#AFBDD1" stroke-width="2"/>
+<line id="Line 40" x1="7.5" y1="1" x2="7.5" y2="19" stroke="#AFBDD1" stroke-width="2"/>
+<line id="Line 41" x1="1.5" y1="7" x2="19.5" y2="7" stroke="#AFBDD1" stroke-width="2"/>
+<rect id="Rectangle 260" x="9.5" y="9" width="9" height="9" fill="#09131D"/>
+<rect id="Rectangle 261" x="14.5" y="10" width="9" height="3" fill="#09131D"/>
+<rect id="Rectangle 262" x="10.5" y="17" width="4" height="3" fill="#09131D"/>
+<g id="Group 161">
+<path id="Line 37" d="M20.5713 15.8281L13.5002 15.8281" stroke="#AFBDD1" stroke-width="2" stroke-linecap="round"/>
+<path id="Line 38" d="M20.5713 15.8281L17.7429 12.9997" stroke="#AFBDD1" stroke-width="2" stroke-linecap="round"/>
+<path id="Line 39" d="M20.5713 15.8281L17.7429 18.6566" stroke="#AFBDD1" stroke-width="2" stroke-linecap="round"/>
+</g>
+</g>
+</svg>

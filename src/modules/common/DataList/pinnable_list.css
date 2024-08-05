@@ -1,0 +1,70 @@
+.data-list__container {
+    overflow-y: scroll;
+}
+
+.data-list__rows-header-title {
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+i.data-list__rows-header-sort-icon {
+    position: absolute;
+    right: auto;
+    left: auto;
+    font-size: small;
+    transform: translate3d(10px, -55%, 0);
+    font-size: 12px;
+}
+
+.data-list__rows-header-title--sortable {
+    cursor: pointer;
+}
+
+.data-list__rows-header-title--not-sortable {
+    cursor: none;
+
+    i {
+        visibility: hidden;
+    }
+}
+
+i.data-list__rows-header-sort-icon[data-sort="not-sorted"] {
+    color: var(--Color-System-Disable, #313C4E);
+}
+
+i.data-list__rows-header-title[sorted="asc"],
+i.data-list__rows-header-title[sorted="desc"] {
+    color: #9BA6F5;
+}
+
+/** CARDS  */
+.data-list__container--cards {
+    padding-inline: 1.5%;
+}
+
+.data-list__cards-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.data-list__cards--pin-top {
+    justify-content: start;
+}
+
+.data-list__cards--main {
+    justify-content: start;
+}
+
+hr.data-list__cards-seperator-for-pinned {
+    margin-top: min(22px, 1.5rem);
+    margin-bottom: min(15px, 1rem);
+    transition: all 1.5s ease-out;
+    width: 100%;
+}
+
+
+hr.data-list__cards-seperator-for-pinned--hidden {
+    width: 0%;
+}
