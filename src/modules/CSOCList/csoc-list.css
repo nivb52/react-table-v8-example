@@ -50,6 +50,11 @@
     background-color: var(--Modules-data-list__rows-headers--bg, var(--Primitive-Dark-Dark3, #000e18));
   }
 
+  .data-list__table--rows{
+      width: 100%;
+      padding: 0 2em;
+  }
+    
   .CSOC-Card__content {
     min-width: var(--csoc-card-width);
     max-width: var(--csoc-card-width);
