@@ -1,0 +1,51 @@
+.soc-list--wrapper { 
+
+  min-width: 100%;
+  max-width: 100%;
+  text-align: center;
+  overflow: auto;
+
+  /**/
+  .data-list__toolbar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    height: min-content;
+    background: ${config.colors('fullScreen.primary')};
+  }
+
+  .data-list__container {
+    overflow: auto;
+    background: ${config.colors('gradients.linear.linear3') ||
+    'linear-gradient(180deg, #090019 -17.59%, #1e2c3a 100%)'};
+    color: ${config.colors('text.primary')};
+    max-height: calc(
+      var(--max-height, calc(var(--line-size, 4em) * var(--number-of-lines, 7)))
+    ); /* can be changed from parent using var */
+    height: calc(var(--height, calc(calc(100vh + 0px) / 2))); /* can be changed from parent using var */
+    padding-bottom: var(--line-size, 4em);
+  }
+
+  .data-list__rows-headers {
+    color: var(--Primitive-Gray-Gray1, #afbdd1);
+    padding-inline-start: 16px;
+    position: sticky;
+    top: 0;
+    height: 40px;
+    background-color: var(--Modules-data-list__rows-headers--bg, var(--Primitive-Dark-Dark3, #000e18));
+  }
+
+  .socs-list--input-edit.input-edit.input-edit--switch {
+    --text-color: var(--Primitive-White-OffWhite, #d9d9d9);
+
+    .MuiSwitch-override {
+      .Mui-checked + .MuiSwitch-track {
+        background-color: var(--switch-color--on, #00ffa3);
+        opacity: 1;
+      }
+      .MuiSwitch-track {
+        background-color: transparent;
+      }
+    }
+  }
+  }

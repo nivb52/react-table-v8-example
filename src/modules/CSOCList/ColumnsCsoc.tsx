@@ -3,7 +3,7 @@ import React from 'react';
 import ExportIcon from '../../assets/icons/Export.svg';
 // 3rd-party
 import { createColumnHelper } from '@tanstack/react-table';
-import TableCell from './TableCell';
+import TableCell from '../common/DataList/TableCell';
 // Components
 // store & context & utils
 import { colorByStatus, sortVersionFn, sortStatusFn } from './helpers';

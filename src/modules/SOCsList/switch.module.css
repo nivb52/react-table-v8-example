@@ -1,0 +1,15 @@
+.switch {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding: 0px;
+    gap: 6px;
+    border-radius: 7px;
+
+    span {
+        color: var(--text-color, --Primitive-White-OffWhite);
+        flex: none;
+        flex-grow: 0;
+    }
+}

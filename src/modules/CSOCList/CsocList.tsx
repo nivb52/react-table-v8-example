@@ -1,7 +1,7 @@
 import React from 'react';
 // Style & Icons
 import './csoc-list.css';
-import { default as NSLoader } from '../../modules/common/Loader/Spinner';
+import { default as Loader } from '../../modules/common/Loader/Spinner';
 // 3rd-party
 import {
   useQuery,
@@ -77,7 +77,7 @@ export default function CsocList(): JSX.Element {
   }
 
   if (isLoading) {
-    return <NSLoader size={310} color='secondary' />;
+    return <Loader size={310} color='secondary' />;
   }
 
   if (!result.data || result.data.length === 0) {
