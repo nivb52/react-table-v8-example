@@ -8,8 +8,6 @@
   --color-text: var(--Primitive-Gray-Gray1, #afbdd1);
 
   padding-bottom: calc(50px + var(--csoc-card-height));
-  min-width: 100%;
-  max-width: 100%;
   text-align: center;
   overflow: auto;
 
