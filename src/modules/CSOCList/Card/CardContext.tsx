@@ -1,9 +1,9 @@
 import React from 'react';
-import type { SetStateAction, Dispatch, ReactNode } from 'react';
+import type { SetStateAction, Dispatch } from 'react';
 
 // CARD CONTEXT
 export interface ICardContext {
-  maxAllwedBookmarkCards: number;
+  maxAllowedBookmarkCards: number;
   bookmarkCount: number;
   setBookmarkCount: Dispatch<SetStateAction<number>>;
 }

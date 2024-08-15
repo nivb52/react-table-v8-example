@@ -24,7 +24,7 @@ export interface Props {
 // ============ CMP =============
 export function Card({ data, isPinned, doPin, unPin }: Props): JSX.Element {
   const [isExpended, setIsExpended] = React.useState(false);
-  const { bookmarkCount, setBookmarkCount, maxAllwedBookmarkCards: maxAllowedBookmarkCards } = useCardContext();
+  const { bookmarkCount, setBookmarkCount, maxAllowedBookmarkCards } = useCardContext();
 
   const navigateToSocList = (): void => {
     console.log('navigate');

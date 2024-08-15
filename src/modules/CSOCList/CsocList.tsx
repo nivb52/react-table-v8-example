@@ -43,7 +43,7 @@ export default function CsocList(): JSX.Element {
   /**@description: calc max allowed bookmarked cards (the varible holds the max value - 1) */
   React.useEffect(() => {
     const calcWidth = (): void => {
-      const el = document.querySelector('.csoc-list--wrapper .data-list__cards-content.data-list__cards--pin-top') as
+      const el = document.querySelector('.csoc-list--wrapper .data-list__cards-content') as
         | HTMLElement
         | undefined;
       if (el) {
@@ -87,7 +87,7 @@ export default function CsocList(): JSX.Element {
   return (
     <div className='csoc-list--wrapper'>
       <CardContext.Provider
-        value={{ bookmarkCount, setBookmarkCount, maxAllwedBookmarkCards: maxAllowedCardBookmarksRef.current }}
+        value={{ bookmarkCount, setBookmarkCount, maxAllowedBookmarkCards: maxAllowedCardBookmarksRef.current }}
       >
         <DataList<T.Tcsoc>
           data={result.data}
